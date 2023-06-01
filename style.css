@@ -3,7 +3,7 @@ html,
 body {
     display: flex;
     flex-direction: row;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     /* horizontal container  */
     justify-content: center;
     /* vertical, compact container */
@@ -76,12 +76,17 @@ body {
     color: white;
 }
 
+.operation.selected{
+    background-color: white;
+    color: #ee6c4d;
+}
+
 .operation:hover,
 .equal:hover {
     background-color: white;
     color: #ee6c4d;
 }
 
-.number {}
+/* .number {}
 
-.decima {}
+.decimal {} */
